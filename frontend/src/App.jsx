@@ -1,27 +1,4 @@
-// import React from 'react';
-// import Header from './components/Header';
-// import Home from './components/Home';
-// import About from './components/About';
-// import Skills from './components/Skills';
-// import Footer from './components/Footer';
 
-// const App = () => {
-//     return (
-//         <>
-//             <Header />
-//             <main id="main">
-//                 <Home />
-//                 <About />
-//                 <Skills />
-//             </main>
-//             <Footer />
-//         </>
-//     );
-// };
-
-// export default App;
-
-// App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';

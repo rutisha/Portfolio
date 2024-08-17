@@ -5,7 +5,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8888/api/projects')
+    fetch('https://portfolio-backend-kappa-six.vercel.app/api/projects')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching projects:', error));

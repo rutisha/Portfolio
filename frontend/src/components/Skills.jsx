@@ -5,7 +5,7 @@ function Skills() {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8888/api/skills')
+    fetch('https://portfolio-backend-kappa-six.vercel.app/api/skills')
       .then((response) => response.json())
       .then((data) => setSkills(data))
       .catch((error) => console.error('Error fetching skills:', error));
