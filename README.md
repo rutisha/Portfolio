@@ -13,7 +13,7 @@ This portfolio website includes the following sections:
 
 ## Live Demo
 
-You can view the live version of the website at: [Your Project URL]([https://portfolio-frontend-puce-ten.vercel.app/])
+You can view the live version of the website at: [Your Project URL](https://portfolio-frontend-puce-ten.vercel.app/)
 
 ## Installation
 
