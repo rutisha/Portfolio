@@ -14,8 +14,16 @@
     ],
     "routes": [
       {
-        "src": "/(.*)", 
+        "src": "/static/(.*)",
+        "dest": "frontend/build/static/$1"
+      },
+      {
+        "src": "/api/(.*)",
         "dest": "backend/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "frontend/build/index.html"
       }
     ]
   }
